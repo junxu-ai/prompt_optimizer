@@ -1,0 +1,66 @@
+{
+  "session_id": "20250806160835452228",
+  "timestamp": "2025-08-06 16:08:35",
+  "prompt": "Write a product-launch email for our new SaaS app for small businesses. Include a persuasive CTA and keep it under 120 words.",
+  "deconstruct": {
+    "intent": "Write a product-launch email for our new SaaS app for small businesses. Include a persuasive CTA and keep it under 120 words.",
+    "entities": [
+      "write",
+      "include"
+    ],
+    "context": "",
+    "output_specs": "",
+    "constraints": {
+      "word_limit": null,
+      "tone": null,
+      "style": null,
+      "audience": null,
+      "priority": null
+    },
+    "missing": [
+      "Target audience"
+    ]
+  },
+  "diagnose": {
+    "issues": [
+      "No context provided.",
+      "Prompt may lack a clear action or question."
+    ]
+  },
+  "candidates": [
+    {
+      "candidate": "A",
+      "strategy": "Multi-perspective framing with explicit tone and audience.",
+      "technique": "Multi-perspective framing with explicit tone and audience.",
+      "prompt": "Imagine you're a small business owner eager to streamline operations. Write a product-launch email for our new SaaS app, designed specifically for small businesses. Adopt an enthusiastic and supportive tone, highlighting how this app solves common pain points like time management and cost efficiency. Include a persuasive call-to-action that encourages immediate sign-up, and keep the email under 120 words to ensure clarity and impact.",
+      "rationale": "This prompt encourages the writer to adopt the perspective of the target audience, fostering empathy and relevance. By specifying the tone and audience, it guides the writer to craft a message that resonates emotionally and practically with small business owners. The focus on common pain points ensures the email is both relatable and compelling.",
+      "token_estimate": 3
+    },
+    {
+      "candidate": "B",
+      "strategy": "Role assignment plus layered context.",
+      "technique": "Role assignment plus layered context.",
+      "prompt": "As a marketing expert for a tech startup, your task is to craft a concise product-launch email for our new SaaS app aimed at small businesses. Use your expertise to highlight the app's unique features and benefits, and weave in a persuasive call-to-action. The email should be under 120 words, capturing the essence of the app while motivating recipients to take action.",
+      "rationale": "Assigning the role of a marketing expert leverages the writer's assumed expertise, encouraging a professional and strategic approach. The layered context of being part of a tech startup adds urgency and innovation to the narrative, pushing for a dynamic and engaging email.",
+      "token_estimate": 3
+    },
+    {
+      "candidate": "C",
+      "strategy": "Constraint-driven (word limit/style) + creativity boost.",
+      "technique": "Constraint-driven (word limit/style) + creativity boost.",
+      "prompt": "Challenge yourself to write a product-launch email for our new SaaS app for small businesses. Embrace a creative and concise style, ensuring the email is under 120 words. Focus on crafting a compelling narrative that highlights the app's transformative impact, and include a persuasive call-to-action that drives immediate engagement.",
+      "rationale": "This prompt emphasizes creativity within constraints, encouraging the writer to think outside the box while adhering to the word limit. By focusing on a transformative narrative, it inspires a storytelling approach that can captivate the audience, making the email memorable and effective.",
+      "token_estimate": 3
+    }
+  ],
+  "chosen_idx": 1,
+  "constraints": {
+    "word_limit": null,
+    "tone": null,
+    "style": null,
+    "audience": null,
+    "priority": null
+  },
+  "task_type": "Creative",
+  "tags": "Write a product-launch email for"
+}
