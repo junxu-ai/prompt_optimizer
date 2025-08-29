@@ -79,3 +79,8 @@ prompt-optimizer/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
+
+## ToDo
+- [ ] Add more prompt templates
+- [ ] Add more heuristics
+- [ ] Integrate with DSpy and BAML --
